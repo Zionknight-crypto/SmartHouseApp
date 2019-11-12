@@ -1,0 +1,40 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlyTaloSovellus"
+        xmlns:CircularGauge="clr-namespace:CircularGauge;assembly=CircularGauge" x:Name="frmMain" x:Class="AlyTaloSovellus.MainWindow"
+        mc:Ignorable="d"
+        Title="AlyTaloSovellus" Height="800" Width="800">
+    <Grid>
+        <Button x:Name="btnOnOLohuone" Content="On" HorizontalAlignment="Left" Height="47" Margin="194,84,0,0" VerticalAlignment="Top" Width="66" Cursor="" Click="btnOnOLohuone_Click"/>
+        <Label x:Name="lblOlohuone" Content="Olohuone" HorizontalAlignment="Left" Height="28" Margin="277,93,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Keitiö" HorizontalAlignment="Left" Height="29" Margin="450,92,0,0" VerticalAlignment="Top" Width="46"/>
+        <Label Content="Talon Lämpötila" HorizontalAlignment="Left" Height="53" Margin="81,238,0,0" VerticalAlignment="Top" Width="191" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnOffOLohuone" Content="Off" HorizontalAlignment="Left" Height="47" Margin="96,84,0,0" VerticalAlignment="Top" Width="66" Cursor="" Click="btnOffOLohuone_Click"/>
+        <Button x:Name="btnOnKeitio" Content="On" HorizontalAlignment="Left" Height="47" Margin="526,84,0,0" VerticalAlignment="Top" Width="66" Cursor="" Click="btnOnKeitio_Click"/>
+        <Button x:Name="btnOffKeitio" Content="Off" HorizontalAlignment="Left" Height="47" Margin="623,84,0,0" VerticalAlignment="Top" Width="66" Cursor="" Click="btnOffKeitio_Click"/>
+        <Label Content="Sauna&#xA;" HorizontalAlignment="Left" Height="41" Margin="555,238,0,0" VerticalAlignment="Top" Width="119" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnOnSauna" Content="On" HorizontalAlignment="Left" Height="47" Margin="494,299,0,0" VerticalAlignment="Top" Width="66" Cursor="" Click="btnOnSauna_Click"/>
+        <Button x:Name="btnOffSauna" Content="Off" HorizontalAlignment="Left" Height="47" Margin="654,299,0,0" VerticalAlignment="Top" Width="66" Cursor="" Click="btnOffSauna_Click"/>
+        <Label x:Name="lblOlohuone_Copy" Content="Valot" HorizontalAlignment="Left" Height="43" Margin="350,27,0,0" VerticalAlignment="Top" Width="79" FontSize="24" FontWeight="Bold"/>
+        <Slider x:Name="slider1" HorizontalAlignment="Left" Height="33" Margin="68,165,0,0" VerticalAlignment="Top" Width="165" Maximum="100" Minimum="0" TickFrequency="5" TickPlacement="Both" IsSnapToTickEnabled="True" LargeChange="0" ValueChanged="slider1_ValueChanged"/>
+        <Slider x:Name="slider2" HorizontalAlignment="Left" Height="33" Margin="555,160,0,0" VerticalAlignment="Top" Width="165" Maximum="100" Minimum="0" TickFrequency="5" TickPlacement="Both" IsSnapToTickEnabled="True" LargeChange="0" ValueChanged="slider2_ValueChanged"/>
+        <Button x:Name="btnValoSauna" Content="" HorizontalAlignment="Left" Height="47" Margin="588,299,0,0" VerticalAlignment="Top" Width="41" Cursor="" RenderTransformOrigin="7.832,0.894"/>
+        <Button x:Name="btnKeitioValo" Content="" HorizontalAlignment="Left" Height="39" Margin="733,92,0,0" VerticalAlignment="Top" Width="51" Cursor=""/>
+        <Label Content="Edellinen lämpötila" HorizontalAlignment="Left" Height="27" Margin="81,296,0,0" VerticalAlignment="Top" Width="129" FontWeight="Bold"/>
+        <Label x:Name="lblTavoitelämpötila" Content="Tavoitelämpötila" HorizontalAlignment="Left" Height="27" Margin="95,415,0,0" VerticalAlignment="Top" Width="115" FontWeight="Bold"/>
+        <Button x:Name="btnVaihdaLampo" Content="Vaihda" HorizontalAlignment="Left" Height="27" Margin="21,484,0,0" VerticalAlignment="Top" Width="113" Click="btnVaihdaLampo_Click"/>
+        <TextBox x:Name="txtlampo2" HorizontalAlignment="Left" Height="27" Margin="179,484,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" Text="0"/>
+        <CircularGauge:CircularGaugeControl x:Name="cgcSauna" HorizontalAlignment="Left" Height="327" Margin="450,433,0,0" VerticalAlignment="Top" Width="334" Loaded="cgcSauna_Loaded"/>
+        <Button x:Name="btnOlohuoneValo" Content="" HorizontalAlignment="Left" Height="39" Margin="10,92,0,0" VerticalAlignment="Top" Width="51" Cursor=""/>
+        <TextBox x:Name="txtlampo1" HorizontalAlignment="Left" Height="27" Margin="95,354,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" Text="20 C"/>
+        <ProgressBar Value="{Binding Path=Value, ElementName=slider1}" x:Name="pbOlohuone" HorizontalAlignment="Left" Height="20" Margin="61,198,0,0" VerticalAlignment="Top" Width="185"/>
+        <ProgressBar Value="{Binding Path=Value, ElementName=slider2}" x:Name="pbKeitio" HorizontalAlignment="Left" Height="20" Margin="545,198,0,0" VerticalAlignment="Top" Width="185"/>
+        <TextBox x:Name="txtSlider1" HorizontalAlignment="Left" Height="28" Margin="246,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+        <TextBox x:Name="txtSlider2" HorizontalAlignment="Left" Height="28" Margin="503,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+        <TextBox x:Name="txtSauna" HorizontalAlignment="Left" Height="27" Margin="555,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" />
+
+    </Grid>
+</Window>

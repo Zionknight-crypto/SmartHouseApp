@@ -1,0 +1,14 @@
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\bin\Debug\FirstProjectWPF.exe.config
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\bin\Debug\FirstProjectWPF.exe
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\bin\Debug\FirstProjectWPF.pdb
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF.csprojAssemblyReference.cache
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\MainWindow.g.cs
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\App.g.cs
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF_MarkupCompile.cache
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF_MarkupCompile.lref
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\MainWindow.baml
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF.g.resources
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF.Properties.Resources.resources
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF.csproj.GenerateResource.cache
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF.exe
+C:\Users\poeti\Desktop\Careeria\C#\FirstProjectWPF\FirstProjectWPF\obj\Debug\FirstProjectWPF.pdb
